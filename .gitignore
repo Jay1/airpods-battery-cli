@@ -1,18 +1,50 @@
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
-
-# Visual Studio for CMake
-#
-.vs/
+# Build directories
+build/
 out/
-CMakeSettings.json
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
 
-# Build
-Build/
+# Visual Studio files
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Executables
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# Test output files
+*.json
+*.log
+
+# vcpkg
+vcpkg_installed/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
