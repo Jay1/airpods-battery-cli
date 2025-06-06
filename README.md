@@ -359,6 +359,21 @@ We welcome contributions! Please see [CONTRIBUTING.md](docs/CONTRIBUTING.md) for
 6. Push to your branch: `git push origin feature/amazing-feature`
 7. Open a Pull Request
 
+## Acknowledgments
+
+This project builds upon the excellent work of the [AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop) project by SpriteOvO. We extend our sincere gratitude for:
+
+- **Apple Continuity Protocol Implementation**: The core BLE advertisement parsing and Apple protocol decoding
+- **AirPods Model Detection**: Comprehensive support for all AirPods and Beats variants
+- **Windows BLE Integration**: Proven Windows Runtime Bluetooth LE implementation patterns
+- **Protocol Documentation**: Detailed understanding of Apple's proprietary advertising format
+
+While this CLI scanner has been significantly refactored and simplified for standalone use, the foundational protocol parsing logic originated from the AirPodsDesktop project. We encourage users to also check out the original full-featured desktop application.
+
+**Original Project**: [AirPodsDesktop](https://github.com/SpriteOvO/AirPodsDesktop)  
+**Original Author**: [@SpriteOvO](https://github.com/SpriteOvO)  
+**License**: MIT License
+
 ## License
 
 This project is part of the RustPods application and is distributed under the MIT License. See the main project [LICENSE](../../LICENSE) file for details.

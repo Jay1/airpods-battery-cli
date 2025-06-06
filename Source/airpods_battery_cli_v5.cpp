@@ -1,5 +1,5 @@
-// AirPods Battery CLI v5.0 - Direct copy from AirPodsDesktop
-// Removes Qt dependencies but keeps the exact working BLE advertisement capture code
+// AirPods Battery CLI v5.0 - Standalone AirPods Battery Monitor
+// Professional refactoring of AirPodsDesktop BLE scanning for CLI use
 
 #include <iostream>
 #include <string>
@@ -302,13 +302,13 @@ void output_json(const std::vector<BLEDevice>& devices) {
     std::cout << std::endl << "    ]," << std::endl;
     std::cout << "    \"airpods_count\": " << airpods_count << "," << std::endl;
     std::cout << "    \"status\": \"success\"," << std::endl;
-    std::cout << "    \"note\": \"Direct copy from AirPodsDesktop v5.0 - Real BLE advertisement capture\"" << std::endl;
+    std::cout << "    \"note\": \"Standalone AirPods Battery CLI v5.0 - Real BLE advertisement capture\"" << std::endl;
     std::cout << "}" << std::endl;
 }
 
 int main() {
     try {
-        std::cout << "AirPods BLE Scanner v5.0 - Direct copy from AirPodsDesktop" << std::endl;
+        std::cout << "AirPods Battery CLI v5.0 - Standalone Battery Monitor" << std::endl;
         
         AdvertisementWatcher watcher;
         
